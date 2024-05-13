@@ -1,14 +1,14 @@
 #!/usr/bin/python3
-""" 
+"""
 User class
 """
 
 class User():
     """ Documentation """
 
-    def __init__(self):
+    def __init__(self, email):
         """ Documentation """
-        self.__email = None
+        self.__email = email
 
     @email.setter
     def email(self, value):
@@ -21,8 +21,8 @@ class User():
     def email(self):
         """ Documentation """
         return self.__email
-   
-    
+
+
 if __name__ == "__main__":
 
     u = User()
