@@ -3,6 +3,8 @@
 """
 
 class Square:
+    """This class defines a Square object and all its methods
+    """
 
     width = 0
     height = 0
