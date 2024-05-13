@@ -6,7 +6,7 @@ User class
 class User():
     """ Documentation """
 
-    def __init__(self, email):
+    def __init__(self, email=None):
         """ Documentation """
         self.__email = email
 
