@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""This module defines the class Square
+"""
 
 class Square:
 
@@ -7,6 +9,8 @@ class Square:
 
 
     def __init__(self, *args, **kwargs):
+        """This method initializes a square instance
+        """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -15,9 +19,13 @@ class Square:
         return self.width * self.width
 
     def permiter_of_my_square(self):
+        """Perimeter of the square
+        """
         return (self.width * 2) + (self.height * 2)
 
     def __str__(self):
+        """String represenation of square object
+        """
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
